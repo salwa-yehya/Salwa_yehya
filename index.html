@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Salwa Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9.3.2/modules/scrollbar/scrollbar.min.css" />
+    <link rel="icon" href="./img/icon_.svg">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-9PSCDT72R0"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-9PSCDT72R0');
+    </script>
+</head>
+
+
+
+<body>
+    <!-- Navbar  Section Start -->
+    <header>
+        <a href="#home" class="logo"><span>S</span>Y.</a>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about" class="nav-link ">About</a></li>
+            <li><a href="#skills" class="nav-link ">Skills</a></li>
+            <li><a href="#Projects" class="nav-link ">Projects</a></li>
+            <li><a href="#Contact" class="nav-link ">Contact</a></li>
+            <div class="darkCont">
+                <div class="bx bx-moon" id="darkmode"></div>
+            </div>
+        </ul>
+    </header>
+    <!-- Navbar Section End -->
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+        <div class="social">
+            <a href="https://github.com/salwa-yehya" target="_blank"><i class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/salwa-yehya-794236253/" target="_blank"><i
+                    class='bx bxl-linkedin'></i></a>
+            <a href="https://www.instagram.com/salwa_yehya/?next=%2F" target="_blank"><i
+                    class='bx bxl-instagram'></i></a>
+
+        </div>
+        <div class="home-img">
+            <img src="./img/salwa.png" alt="img">
+        </div>
+        <div class="home-text">
+            <span>Hello, I'm</span>
+            <h1>Salwa yehya</h1>
+            <span id="auto-type" style="  font-size: 1.5rem;
+            font-weight: 600;
+            color: #e31b78;"></span><br>
+            <br>
+
+            <a href="https://www.dropbox.com/scl/fi/2ewypt3s30pgnpkzyu6gz/Salwa-Yehya_CV.pdf?rlkey=8he1xrxzmjceo70jgciwgu6j6&dl=0"
+                target="_blank" class="btn" download>Download
+                CV</a>
+
+            <a href="#Contact" target="_blank" class="btn_contact">Contact Me</a>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+        <br><br>
+        <div class="heading">
+            <h2 class="slideTobottom">About Me</h2>
+            <span>Introduction</span>
+        </div>
+
+        <div class="about-container">
+            <div class="about-img">
+                <img src="./img/about.png" alt="about">
+            </div>
+            <div class="about-text">
+                <br>
+                <p><span style="color: #e31b78;">My portfolio</span> is a reflection of my passion for programming and
+                    my commitment to continuous learning. 
+                    I design and code beautifully simple things, and I love what I do.</p>
+                <br>
+                <div class="information">
+                    <div class="info-box">
+                        <i class='bx bxs-user'></i>
+                        <span>Salwa Yehya Abuafash</span>
+                    </div>
+
+                    <div class="info-box">
+                        <i class='bx bxs-phone'></i>
+                        <span>0782115097</span>
+                    </div>
+
+                    <div class="info-box">
+                        <i class='bx bxs-envelope'></i>
+                        <span>salwayehyabuafash@gmail.com</span>
+                    </div>
+                </div>
+                <br>
+                <a href="#" target="_blank" class="btn">Contact Me </a>
+            </div>
+        </div>
+        <br>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Skills Section Start -->
+    <!-- <section class="skills" id="skills">
+        <br>
+        <div class="heading">
+            <h2 class="slideTobottom">Skills</h2>
+            <span>My Skills</span>
+            <br><br><br><br><br>
+        </div>
+        <br>
+        <div class="skill-icons">
+            <div class="skill-icon">
+                <i class="fab fa-html5" style="color: #f06529; "></i>
+                <span>HTML</span>
+            </div>
+            <div class="skill-icon">
+                <i class="fab fa-css3-alt" style=" color: #264de4;"></i>
+                <span>CSS</span>
+            </div>
+            <div class="skill-icon">
+                <i class="fab fa-js" style="color: #F0DB4F;"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="skill-icon">
+                <i class="fab fa-php" style="color:  #8993be;"></i>
+                <span>PHP</span>
+            </div>
+
+            <div class="skill-icon">
+                <i class="fab fa-laravel" style=" color: #F05340;"></i>
+                <span>Laravel</span>
+            </div>
+            <div class="skill-icon">
+                <i class="fab fa-react" style=" color: #61dbfb;"></i>
+                <span>React</span>
+            </div>
+            <div class="skill-icon">
+                <i class="fab fa-bootstrap" style=" color: #563d7c;"></i>
+                <span>Bootstrap</span>
+            </div>
+            <div class="skill-icon">
+                <i class="fab fa-wordpress" style=" color:#444140;"></i>
+                <span>Wordpress</span>
+            </div>
+        </div>
+
+        <br><br><br><br><br><br>
+    </section> -->
+    <!-- Skills Section End -->
+
+    <!-- Projects Section Start -->
+    <section class="Projects" id="Projects">
+        <div class="heading">
+            <h2 class="slideTobottom">Projects</h2>
+            <span>Recent Works</span>
+        </div>
+        <br><br>
+        <div class="Projects-content" id="projects-container">
+        </div>
+
+
+
+        <div class="footer">
+            <span>More in my <a href="https://github.com/salwa-yehya" target="_blank">Github </a><i
+                    class='bx bxl-github'></i></span>
+
+        </div>
+    </section>
+    <!-- Projects Section End -->
+
+    <!-- Certificates Section Start -->
+    <section class="Certificates" id="Certificates">
+        <div class="heading">
+            <h2 class="slideTobottom">Certificates</h2>
+            <span>My certificates</span>
+        </div>
+
+        <br><br>
+
+        <div class="Certificates-content" id="certificates-container">
+        </div>
+
+    </section>
+    <!-- Certificates Section End -->
+
+    <!-- Contact Section Start -->
+    <section class="Contact" id="Contact">
+        <div class="heading">
+            <h2 class="slideTobottom">Contact </h2>
+            <span>Contact Me</span>
+        </div>
+        <br><br>
+        <div class="content">
+            <div class="imgContainer">
+                <img src="./img/contact.png" alt="" class="img">
+            </div>
+            <form class=form action="https://formspree.io/f/maygqrnj" method="POST">
+                <input type="text" placeholder="name" class=input name="name" required />
+                <input type="text" placeholder="email" class=input name="email" required />
+                <textarea class=textArea placeholder="message" cols="20" rows="4" name="message" required></textarea>
+                <button class="btn" type="submit">
+                    <p style="letter-spacing: 1.5px; font-size: 1rem;">Send</p>
+                </button>
+            </form>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <div class="copyright">
+        © Salwa Portfolio | All Right Reserved.</p>
+    </div>
+
+    <!-- Javascript -->
+    <script src="project.js"></script>
+    <script src="certificates.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9.3.2/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        let typed = new Typed("#auto-type", {
+            strings: ["Frontend Web Developer", "UX Designer"],
+            typeSpeed: 50,
+            backSpeed: 100,
+            loop: true,
+        });
+    </script>
+    <!-- Javascript end-->
+
+</body>
+
+</html>
