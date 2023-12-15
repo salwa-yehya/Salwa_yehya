@@ -1,9 +1,16 @@
 const certificates = [
     {
+        name :'Foundations of User Experience Design Certificate',
+        description :'Issued by Coursera',
+        link : 'https://www.coursera.org/',
+        skills :['UX'],
+        imageSrc:'./img/Coursera_1.jpg',       
+    },
+    {
         name :'Full Stack web Developer Certificate',
         description :'Issued by Simplon.co',
         link : 'https://www.linkedin.com/company/simplon-co/',
-        skills :['HTML' , 'CSS' , 'JS', 'React' , 'PHP' , 'Laravel'],
+        skills :['HTML' , 'CSS' , 'JS', 'React' , 'PHP' , 'Laravel' , 'MySQL'],
         imageSrc:'./img/full.jpeg',       
     },
     {

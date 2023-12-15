@@ -400,12 +400,12 @@ span {
   margin-top: 0rem;
   display: flex;
   flex-wrap: wrap;
-  gap: 2px;
+  gap: 5px;
 }
 .stack-btn{
   font-size: .9rem;
-  min-width:65px;
-
+  width: auto;
+  padding:2px 8px;
   text-align: center;
   border-radius: 7px;
   margin-bottom: 1rem;
@@ -453,6 +453,12 @@ span {
 }
 .googleanalytics{
   background: 	#ed750a	;
+}
+.mysql{
+  background: #00758F;
+}
+.ux{
+  background: #353535;
 }
 .card{
   a {

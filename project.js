@@ -19,7 +19,7 @@ const projects = [
     {
         name: 'Reflection',
         description: 'Full Functionality Ecommerce & Admin Panel.',
-        stack: ['Laravel','PHP'],
+        stack: ['Laravel','PHP' , 'MySQL'],
         imageSrc: './img/reflection.JPG',
         githubLink: 'https://github.com/salwa-yehya/MasterPe',
     //    demoLink: 'https://pom-loop.web.app/'
