@@ -720,6 +720,13 @@ span {
     margin-left: 25%;
   }
 }
+@media (max-width: 450px) {
+  .input,
+  .textArea {
+    margin-right: 40px;
+  }
+  
+}
 
 @media (max-width: 340px) {
   :root {
